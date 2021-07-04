@@ -7,3 +7,21 @@
     margin: 92px auto 0;
     padding-bottom: 24px;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer{
+        width: 288px;
+    }
+}

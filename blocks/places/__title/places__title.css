@@ -7,3 +7,30 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .places__place{
+        display: flex;
+        width: 928px;
+        height: 640px;
+        margin: 0 auto 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__place{
+        display: flex;
+        width: 720px;
+        height: 581px;
+        margin: 0 auto 80px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__place{
+        display: flex;
+        width: 320px;
+        height: 1042px;
+        margin: 0 auto 80px;
+    }
+}

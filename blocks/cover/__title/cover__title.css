@@ -11,3 +11,24 @@
     margin: 0 auto 0;
     z-index: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__title{
+        top: 195px;
+        left: 232px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title{
+        top: 115px;
+        left: 104px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title{
+        top: 33px;
+        left: 16px;
+    }
+}

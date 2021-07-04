@@ -1,10 +1,33 @@
 .place__paragraph{
     width: 484px;
-    height: 145px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    margin-top: 48px;
+    margin-bottom: 27px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph{
+        display: flex;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph{
+        display: flex;
+        width: 352px;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph{
+        display: flex;
+        width: 288px;
+        margin-bottom: 25px;
+    }
 }

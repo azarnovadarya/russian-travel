@@ -1,0 +1,16 @@
+.places__place{
+    display: flex;
+    /*grid-template-columns: 460px 484px;*/
+    /*grid-template-rows: 213px 213px 213px;*/
+    width: 984px;
+    height: 660px;
+    margin: 0 auto 80px;
+}
+
+.place__left{
+margin-right: 40px;
+}
+
+.places__place:nth-child(1){
+    margin-top: 92px;
+}

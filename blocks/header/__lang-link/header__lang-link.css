@@ -1,0 +1,10 @@
+.header__lang-link{
+    margin-right: 18px;
+    text-decoration: none;
+    align-self: flex-start;
+    color: white;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: normal;
+    align-items: center;
+}

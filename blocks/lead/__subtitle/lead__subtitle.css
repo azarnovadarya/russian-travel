@@ -10,21 +10,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .cover__background{
+    .lead__subtitle{
         width: 1024px;
         height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .cover__background{
+    .lead__subtitle{
         width: 768px;
         height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .cover__background{
+    .lead__subtitle{
         width: 320px;
         height: 200px;
     }

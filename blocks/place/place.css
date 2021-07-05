@@ -1,4 +1,4 @@
-.places__place{
+.place{
     display: flex;
     flex-wrap: wrap;
     width: 984px;
@@ -6,16 +6,13 @@
     margin: 0 auto 80px;
 }
 
-.place__left{
-margin-right: 40px;
-}
 
-.places__place:nth-child(1){
+.place:nth-child(1){
     margin-top: 92px;
 }
 
 @media screen and (max-width: 1024px) {
-    .places__place{
+    .place{
         width: 928px;
         height: 640px;
         margin: 0 auto 80px;
@@ -23,7 +20,7 @@ margin-right: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    .places__place{
+    .place{
         width: 720px;
         height: 581px;
         margin: 0 auto 73px;
@@ -31,13 +28,13 @@ margin-right: 40px;
 }
 
 @media screen and (max-width: 320px) {
-    .places__place{
+    .place{
         flex-direction: column;
         width: 320px;
         height: 965px;
         margin: 0 auto 50px;
     }
-    .places__place:nth-child(1){
+    .place:nth-child(1){
         margin-top: 64px;
     }
 }

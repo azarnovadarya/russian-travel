@@ -5,23 +5,18 @@
     font-size: 16px;
     line-height: 163%;
     color: white;
+    margin: 40px auto 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .lead__caption{
-        margin-bottom: 8px;
-        margin-left: 0;
-    }
-}
 
 @media screen and (max-width: 768px) {
-    .lead__caption{
-        margin: 8px 24px 0;
+    .intro__text{
+        width: 720px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .lead__caption{
-        margin: 8px 24px 0;
+    .intro__text{
+        width: 288px;
     }
 }

@@ -25,4 +25,7 @@
         height: 320px;
         margin-top: 32px;
     }
+    .place__left{
+        margin-right: 0;
+    }
 }

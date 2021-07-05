@@ -23,5 +23,6 @@
     .lead__image{
         width: 320px;
         height: 200px;
+        margin: 40px auto 0;
     }
 }

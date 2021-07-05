@@ -11,3 +11,26 @@
 .place__website:nth-child(5){
     margin-top: 30px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .place__website{
+        margin-top: 46px;
+    }
+    .place__website:nth-child(2){
+        margin-top: 0;
+    }
+    .place__website:nth-child(3){
+        margin-top: 0;
+    }
+    .place__website:nth-child(5){
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website{
+        margin: 32px auto 0;
+        width: 288px;
+    }
+}

@@ -10,24 +10,24 @@
 
 @media screen and (max-width: 1024px) {
     .place__paragraph{
-        display: flex;
-        width: 400px;
+        font-size: 18px;
+        line-height: 163%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__paragraph{
-        display: flex;
-        width: 352px;
         font-size: 16px;
-        margin-bottom: 25px;
+        line-height: 163%;
+        width: 352px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph{
-        display: flex;
+        font-size: 16px;
+        line-height: 163%;
         width: 288px;
-        margin-bottom: 25px;
+        margin: auto;
     }
 }

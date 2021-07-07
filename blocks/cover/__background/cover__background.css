@@ -1,12 +1,11 @@
-.cover__background{
-    background-image: url("../../../images/__background.png");
-    object-fit: cover;
-    height: calc(100vw/1.6);
+.cover__background {
+    align-items: center;
+    opacity: 0.3;
 }
 
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
     .cover__background{
-        width: calc(100% - 96px);
+        /*width: calc(100% - 96px);*/
     }
 }

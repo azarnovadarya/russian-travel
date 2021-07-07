@@ -1,5 +1,7 @@
 @import url("../vendor/normalize.css");
 
+@import url("../vendor/fonts.css");
+
 @import url("../blocks/page/page.css");
 
 @import url("../blocks/header/header.css");
@@ -41,16 +43,3 @@
 @import url("../blocks/website/website.css");
 @import url("../blocks/website/__url-heading/website__url-heading.css");
 @import url("../blocks/website/__link/website__link.css");
-
-
-@font-face {
-    src: url("../vendor/Inter Desktop/Inter-Black.otf");
-    font-family: 'Inter';
-    font-weight: bold;
-}
-
-@font-face {
-    src: url("../vendor/Inter Desktop/Inter-Regular.otf");
-    font-family: 'Inter';
-    font-weight: normal;
-}

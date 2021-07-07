@@ -4,26 +4,25 @@
     font-size: 72px;
     font-weight: 900;
     text-align: center;
-    opacity: 1;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__title{
-        /*margin-top: 195px;*/
+        margin-top: 195px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__title{
-        /*margin-top: 195px;*/
+        margin-top: 195px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__title{
-        /*margin-top: 195px;*/
-        /*font-size: 32px;*/
-        /*line-height: 35px;*/
-        /*width: 288px;*/
+        margin-top: 195px;
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
     }
 }

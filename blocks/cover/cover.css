@@ -1,9 +1,12 @@
 .cover{
     background-image: url("../../images/__background.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: calc(100% - 96px);
     height: 740px;
     margin: 0 auto 0;
-    padding-top: 195px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,38 +17,5 @@
 @media screen and (max-width: 1024px) {
     .cover{
         width: 100%;
-        height: calc(100%/1.6);
     }
 }
-/*.cover {*/
-/*    display: flex;*/
-/*    background-image: url(../../images/cover-trains.jpg);*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    max-width: 1184px;*/
-/*    min-height: 740px;*/
-/*    margin: 23px 0px 27px;*/
-/*}*/
-/*@media screen and (max-width:1279px) and (min-width:1024px) {*/
-/*    .cover {*/
-/*        max-width: 1024px;*/
-/*        margin: 26px 0px 33px;*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
-/*@media screen and (max-width:1023px) and (min-width:768px) {*/
-/*    .cover {*/
-/*        max-width: 768px;*/
-/*        min-height: 480px;*/
-/*        margin: 70px 0 65px;*/
-/*    }*/
-/*}*/
-/*@media screen and (max-width:767px) and (min-width:320px) {*/
-/*    .cover {*/
-/*        max-width: 320px;*/
-/*        min-height: 200px;*/
-/*        margin: 0 auto;*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/

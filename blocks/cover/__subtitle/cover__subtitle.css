@@ -5,11 +5,12 @@
     text-align: center;
     color: #FFFFFF;
     margin-top: 32px;
-    opacity: 1;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle{
+        width: 100%;
+
         /*top: 379px;*/
         /*left: 332px;*/
     }

@@ -1,5 +1,8 @@
-/*.cover__overlay{*/
-/*    width: calc(100% - 96px);*/
-/*    height: 740px;*/
-/*    opacity: 0.3;*/
-/*}*/
+.cover__overlay{
+    position: absolute;
+    width: 1184px;
+    height: 740px;
+    opacity: 0.3;
+    background-color: #2A2C2F;
+    z-index: 1;
+}

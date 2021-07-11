@@ -1,5 +1,4 @@
 .cover{
-    background-image: url("../../images/__background.png");
     position: relative;
     display: flex;
     flex-direction: column;

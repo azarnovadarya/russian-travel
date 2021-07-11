@@ -5,6 +5,7 @@
     font-weight: 900;
     text-align: center;
     width: 100%;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {

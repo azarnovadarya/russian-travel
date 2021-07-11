@@ -4,13 +4,12 @@
 
 @media screen and (min-width: 1280px){
     .intro{
-        width: calc(100% - 590px);
-        margin-left: 148px;
+        margin-left: calc((100% - 984px)/2);
 
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .intro{
         width: calc(100% - 334px);
         margin-left: 48px;
@@ -19,7 +18,7 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro{
         width: calc(100% - 48px);
         margin-left: 24px;
@@ -27,7 +26,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .intro{
         width: calc(100% - 32px);
         margin-left: 16px;

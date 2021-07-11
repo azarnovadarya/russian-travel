@@ -4,17 +4,17 @@
     text-transform: uppercase;
     font-size: 10px;
     line-height: 14px;
-    margin: 8px 148px 0;
+    margin: 8px auto 0;
 }
 
 @media screen and (min-width: 1280px){
     .lead__caption{
-        width: calc(100% - 590px);
+        width: 984px;
 
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead__caption{
         width: calc(100% - 334px);
         margin-left: 48px;
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead__caption{
         width: calc(100% - 48px);
         margin-left: 24px;
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .lead__caption{
         width: calc(100% - 32px);
         margin-left: 16px;

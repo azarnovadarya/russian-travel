@@ -26,11 +26,9 @@
 
 @media screen and (max-width: 320px) {
     .cover__subtitle{
-        /*top: 119px;*/
-        /*left: 16px;*/
-        /*font-size: 14px;*/
-        /*line-height: 16px;*/
-        /*width: 288px;*/
-        /*margin: 0;*/
+        font-size: 14px;
+        line-height: 16px;
+        width: 288px;
+        margin-top: 16px;
     }
 }

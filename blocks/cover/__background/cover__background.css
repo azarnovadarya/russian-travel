@@ -9,8 +9,16 @@
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__background{
         width: 100%;
+        height: calc(100%/1.2);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background{
+        width: 100%;
+        height: 200px;
     }
 }

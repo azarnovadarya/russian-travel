@@ -4,10 +4,13 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
-    margin:0 40px 0 0;
+    margin:-16px 40px 0px 2px;
     height: fit-content;
 }
 
+.place__title:nth-child(2){
+    margin:-8px 40px 0px 2px;
+}
 @media screen and (max-width: 1024px) {
     .place__title{
         font-size: 72px;

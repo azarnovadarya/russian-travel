@@ -6,6 +6,7 @@
     line-height: 163%;
     color: #FFFFFF;
     margin-bottom: 27px;
+    margin-top: 45px;
 }
 
 @media screen and (min-width: 1024px){
@@ -29,6 +30,8 @@
 @media screen and (max-width: 425px) {
     .place__paragraph{
         width: 288px;
-        margin: 32px 16px 25px;
+        margin: 30px 16px 25px;
+        font-size: 16px;
+
     }
 }

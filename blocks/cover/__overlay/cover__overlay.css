@@ -7,6 +7,10 @@
     z-index: 1;
 }
 
+.cover__overlay:hover{
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 1279px) {
     .cover__overlay{
         width: 100%;

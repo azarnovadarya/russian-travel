@@ -4,20 +4,13 @@
 }
 
 .website:nth-child(2){
-    margin-top: 30px;
+    margin-top: 80px;
 }
-.website:nth-child(3){
-    margin-top: 30px;
-}
-.website:nth-child(5){
-    margin-top: 30px;
-}
-
 
 
 @media screen and (min-width: 1024px){
     .website{
-        width: 484px;
+        width: 482px;
     }
 }
 
@@ -37,6 +30,10 @@
 @media screen and (max-width: 425px) {
     .website{
         width: 288px;
-        margin: 32px auto 32px;
+        margin: 20px auto 32px;
+    }
+
+    .website:nth-child(2){
+        margin-top: 24px;
     }
 }

@@ -6,29 +6,15 @@
     color: #FFFFFF;
     margin-top: 32px;
     z-index: 2;
+    width: 360px;
 }
 
-@media screen and (max-width: 1024px) {
-    .cover__subtitle{
-        width: 100%;
-
-        /*top: 379px;*/
-        /*left: 332px;*/
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__subtitle{
-        /*top: 299px;*/
-        /*left: 204px;*/
-    }
-}
 
 @media screen and (max-width: 320px) {
     .cover__subtitle{
         font-size: 14px;
         line-height: 16px;
-        width: 288px;
+        width: 264px;
         margin-top: 16px;
     }
 }

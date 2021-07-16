@@ -1,0 +1,6 @@
+.lang{
+    width: 78px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}

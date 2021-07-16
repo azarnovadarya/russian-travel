@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
     width: 1184px;
-    height: 52px;
     margin: auto;
     padding-top: 11px;
 }
@@ -22,17 +21,12 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 425px) and (max-width: 1023px) {
     .header{
         width: calc(100% - 48px);
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
-    .header{
-        width: calc(100% - 48px);
-    }
-}
 
 @media screen and (max-width: 424px) {
     .header{

@@ -4,17 +4,14 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
-    margin: 16px 40px 0px 2px;
+    margin: 16px 40px 0 2px;
     height: fit-content;
 }
 
-.place__title:nth-child(2){
-    margin: 8px 40px 0px 2px;
-}
 @media screen and (max-width: 1024px) {
     .place__title{
         width: 440px;
-        margin:16px 32px 0px 2px;
+        margin: 16px 32px 0 2px;
     }
 }
 
@@ -23,6 +20,7 @@
         font-size: 42px;
         line-height: 46px;
         width: 340px;
+        margin: 0 28px 0 0;
     }
 }
 

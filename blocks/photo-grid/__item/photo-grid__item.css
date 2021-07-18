@@ -1,24 +1,4 @@
 .photo-grid__item{
     object-fit: fill;
-    width: auto;
-    /*height: calc(100vw/1.6);*/
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .photo-grid__item{
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-    .photo-grid__item{
-        width: calc(100% - 48px);
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .photo-grid__item{
-        width: 100%;
-    }
+    width: 100%;
 }

@@ -3,11 +3,6 @@
     height: fit-content;
 }
 
-.website:nth-child(2){
-    margin-top: 80px;
-}
-
-
 @media screen and (min-width: 1024px){
     .website{
         width: 482px;

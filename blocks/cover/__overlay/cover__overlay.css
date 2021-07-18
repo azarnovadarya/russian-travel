@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 740px;
     background-color: rgba(42, 44, 47, .3);
     z-index: 1;
 }
